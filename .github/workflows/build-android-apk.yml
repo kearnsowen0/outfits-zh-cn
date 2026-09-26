@@ -37,6 +37,9 @@ jobs:
       - name: Apply related outfit feature
         run: python3 scripts/apply_related_looks.py
 
+      - name: Apply new wardrobe and outfits navigation
+        run: python3 scripts/apply_new_navigation.py
+
       - name: Regenerate Android project files
         run: |
           cd src
